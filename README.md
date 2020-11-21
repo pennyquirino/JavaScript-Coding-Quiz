@@ -8,3 +8,6 @@ It will have a clean, polished, and responsive user interface.
 Timer starts at 75 seconds. Game over when you answer all the questions or run out of time. You lose 10 seconds off the clock for each incorrect answer provided.
 
 There is an index.html, highscores.html, script.js, highscores.js, and a style.css file.
+
+
+![](./images/quizscreenshot.JPG)
