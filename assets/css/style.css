@@ -1,0 +1,188 @@
+     
+        #wrapper {
+            position: absolute;
+            left: 30%;
+            top: 20%;
+            width: 500px;
+            height: 500px;
+            background-color: #fff;
+            border: 2px solid rgb(124, 122, 124);
+            border-radius: 2rem;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        p {
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #startTime {
+            background-color: rgb(27, 38, 43);
+            margin-left: 33%;
+            padding: 15px 32px;
+            font-size: 15px;
+            color: white;
+            border-radius: .5rem;
+            cursor: pointer;
+        }
+
+        #startTime:hover {
+            background-color: rgb(114, 132, 141);
+        }
+
+        #questionsDiv {
+            margin: 20px;
+            background-color: #fff;
+        }
+/* placement for the timer WHY WON'T THIS WORK? */
+        #currentTime {
+            font-weight: bold;
+            font-size: large;
+            color: red;
+            background-color: transparent;
+            float: right;
+        }
+
+        .topnav-right {
+            float: right;
+        }
+
+        #goBack {
+            background-color: rgb(27, 38, 43);
+            position: relative;
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            top: 30%;
+            left: 55%;
+            width: auto;
+            text-align: center;
+            border-radius: .5rem;
+            text-decoration: none;  
+            cursor: pointer;  
+        }
+
+        #goBack:hover {
+            background-color: rgb(114, 132, 141);
+        }
+
+        #clear {
+            background-color: rgb(27, 38, 43);
+            position: relative;
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            top: 30%;
+            right: 5%;
+            border-radius: .5rem;
+            text-align: center;   
+            cursor: pointer;
+        }
+
+        #clear:hover {
+            background-color: rgb(114, 132, 141);
+        }
+
+        button {
+            border-radius: 1rem;
+        }
+
+        textarea {
+            width: 90%;
+            margin: 20px;
+        }
+
+        #Submit {
+            background-color: rgb(27, 38, 43);
+            margin-left: 33%;
+            padding: 10px 25px;
+            font-size: 16px;
+            color: white;
+            border-radius: .5rem;
+            cursor: pointer;          
+        }
+
+        label {
+            margin-right: 10px;
+        }
+        input {
+            margin-bottom: 20px;
+            width: 50%;
+            border: 1px solid lightgray;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        li {
+            background-color: rgb(27, 38, 43);
+            margin-top: 10px;
+            padding: 5px 15px;
+            width: 80%;
+            font-size: 18px;
+            color: white;
+            border-radius: .5rem;
+            cursor: pointer;
+        }
+
+        li:hover {
+            background-color: rgb(114, 132, 141);
+        }
+
+        #createDiv {
+            margin-top: 20px;
+            border-top: 1px solid lightgray;
+        }
+
+        /* Start media queries */
+        /* A Media Query max-width: 786px */
+@media screen and (max-width: 786px) {
+    /* Resized content to fit 786px  */
+        body {
+            max-width: 786px;
+        }
+    /* Resized main-content to fit 786px  */
+    #wrapper {
+        position: absolute;
+        left: 20%;
+    }
+
+    a {
+        margin-left: 20%;
+    }
+        #goBack {
+            
+            position: relative;
+            left: 55%;
+        }
+
+        #clear {
+            
+            position: relative;
+            right: 5%;
+            
+        }
+    }
+        
+    /* A Media Query max-width: 640px */
+    @media screen and (max-width: 640px) {
+     /* Resized content to fit 640px  */
+     body {
+            min-width: 640px;
+        }
+    /* Resized main-content to fit 640px  */
+    #wrapper {
+        position: absolute;
+        left: 10%;
+    }
+      a {
+          margin-left: 10%;
+      }
+
+     
+}
